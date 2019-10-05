@@ -6,6 +6,8 @@ const drink = {
   sugar: 40
 };
 
+// type or interface ?
+// Type alias
 type Drink = [string, boolean, number];
 
 const pepsi: Drink = ['brown', true, 40];
