@@ -13,3 +13,15 @@ const userInfo: object | string[] = [
 ];
 
 console.log(userInfo[2]);
+
+// Help with 'map' HOC
+
+const newCarMakers = carMakers.map((car: string): string => {
+  return car.toUpperCase();
+});
+
+console.log(newCarMakers);
+
+// Flexible types
+const importantDates2: (Date | string)[] = [new Date(), 'hello'];
+console.log(importantDates2);
